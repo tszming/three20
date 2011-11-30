@@ -12,6 +12,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		2892E4100DC94CBA00A64D0F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */; };
 		28C286E10D94DF7D0034E888 /* TabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* TabBarController.m */; };
+		28DFDB7B148621B400EA0541 /* AppStyleSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 28DFDB7A148621B400EA0541 /* AppStyleSheet.m */; };
 		6E3795A611B9B7570011C497 /* libThree20Core.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E37958511B9B7560011C497 /* libThree20Core.a */; };
 		6E3795A711B9B7580011C497 /* libThree20Network.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E37958B11B9B7560011C497 /* libThree20Network.a */; };
 		6E3795A811B9B7580011C497 /* libThree20Style.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E37959111B9B7560011C497 /* libThree20Style.a */; };
@@ -186,6 +187,8 @@
 		2892E40F0DC94CBA00A64D0F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		28C286DF0D94DF7D0034E888 /* TabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarController.h; sourceTree = "<group>"; };
 		28C286E00D94DF7D0034E888 /* TabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarController.m; sourceTree = "<group>"; };
+		28DFDB79148621B400EA0541 /* AppStyleSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStyleSheet.h; sourceTree = "<group>"; };
+		28DFDB7A148621B400EA0541 /* AppStyleSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStyleSheet.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6E37957011B9B7560011C497 /* Three20Core.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Core.xcodeproj; path = ../../src/Three20Core/Three20Core.xcodeproj; sourceTree = SOURCE_ROOT; };
 		6E37957311B9B7560011C497 /* Three20Network.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20Network.xcodeproj; path = ../../src/Three20Network/Three20Network.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -246,6 +249,8 @@
 				BE7DD3A21001ED5900662212 /* MenuController.m */,
 				BEBB0E401002B93F00744230 /* ContentController.h */,
 				BEBB0E411002B93F00744230 /* ContentController.m */,
+				28DFDB79148621B400EA0541 /* AppStyleSheet.h */,
+				28DFDB7A148621B400EA0541 /* AppStyleSheet.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -599,6 +604,7 @@
 				BE8FCAB910017846000767AD /* AppDelegate.m in Sources */,
 				BE7DD3A31001ED5900662212 /* MenuController.m in Sources */,
 				BEBB0E421002B93F00744230 /* ContentController.m in Sources */,
+				28DFDB7B148621B400EA0541 /* AppStyleSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

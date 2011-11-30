@@ -2,6 +2,7 @@
 #import "TabBarController.h"
 #import "MenuController.h"
 #import "ContentController.h"
+#import "AppStyleSheet.h"
 
 @implementation AppDelegate
 
@@ -9,6 +10,8 @@
 // UIApplicationDelegate
 
 - (void)applicationDidFinishLaunching:(UIApplication*)application {
+  [TTStyleSheet setGlobalStyleSheet:[[[AppStyleSheet alloc] init] autorelease]];
+    
   TTNavigator* navigator = [TTNavigator navigator];
   navigator.persistenceMode = TTNavigatorPersistenceModeAll;
   navigator.window = [[[UIWindow alloc] initWithFrame:TTScreenBounds()] autorelease];
